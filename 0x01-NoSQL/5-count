@@ -1,4 +1,4 @@
--- Script displays the number of documents in the collection school
--- The databse name is passed as option of mongo command
+// Script displays the number of documents in the collection school
+// The databse name is passed as option of mongo command
 
 db.school.count()

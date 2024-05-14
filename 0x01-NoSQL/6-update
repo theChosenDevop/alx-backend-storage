@@ -1,6 +1,6 @@
--- Script adds a new attribute to document in the collection school
--- Script update only document with name="Holberton school"
--- The update adds the attribute address with the value "972 Mission street"
--- The database name was passed as option of mongo command
+// Script adds a new attribute to document in the collection school
+// Script update only document with name="Holberton school"
+// The update adds the attribute address with the value "972 Mission street"
+// The database name was passed as option of mongo command
 
 db.school.update({ name: "Holberton school"}, { $set: { address: "972 Mission street"}, { multi: true})
